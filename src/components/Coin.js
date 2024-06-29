@@ -72,7 +72,7 @@ const Coin = () => {
           </div>
           <div className="p-4 border rounded-md">
             <h2 className="text-xl font-semibold">24H High</h2>
-            <p>{currency.symbol}{coinData.market_data.highgit_24h[currency.name]}</p>
+            <p>{currency.symbol}{coinData.market_data.high_24h[currency.name]}</p>
           </div>
           <div className="p-4 border rounded-md">
             <h2 className="text-xl font-semibold">24H Low</h2>
