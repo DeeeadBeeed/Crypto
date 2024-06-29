@@ -44,6 +44,9 @@ const Navbar = () => {
           <option value="sgd">SGD</option>
         </select>
         <button className="py-2 px-5 rounded-2xl text-xl font-medium bg-blue-500 text-white hover:bg-blue-600 transition duration-300">Sign Up</button>
+        <a href="https://github.com/DeeeadBeeed/Crypto" target="_blank" rel="noopener noreferrer" className="py-2 px-5 rounded-2xl text-xl font-medium bg-green-500 text-white hover:bg-green-600 transition duration-300">
+          View Source Code
+        </a>
       </div>
     </div>
   );
